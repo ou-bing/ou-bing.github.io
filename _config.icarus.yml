@@ -241,7 +241,7 @@ plugins:
     # https://tongji.baidu.com
     baidu_analytics:
         # Baidu Analytics tracking ID
-        tracking_id: 
+        tracking_id: d1582f1f2c4a0fa33f24f8c25cbb9ce7
     # Bing Webmaster Tools plugin settings
     # https://www.bing.com/toolbox/webmaster/
     bing_webmaster:
@@ -276,7 +276,7 @@ plugins:
     # https://analytics.google.com
     google_analytics:
         # Google Analytics tracking ID
-        tracking_id: 
+        tracking_id: G-2M9QBEFZR2
     # Hotjar user feedback plugin
     # https://www.hotjar.com/
     hotjar:
