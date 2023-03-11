@@ -110,10 +110,14 @@ navbar:
         分类: /categories
         标签: /tags
         关于: /about
+    links:
+        GitHub:
+            icon: fab fa-github
+            url: https://github.com/ou-bing
 # Page footer configurations
 footer:
     # Copyright text
-    copyright: © 2019
+    copyright: <a href="http://www.beian.miit.gov.cn" target="_blank" rel="noopener">浙ICP备17032647号-3a >
     # Links to be shown on the right of the footer section
     links:
         Creative Commons:
@@ -239,9 +243,6 @@ widgets:
         follow_link: https://github.com/ou-bing
         # Links to be shown on the bottom of the profile widget
         social_links:
-            Github:
-                icon: fab fa-github
-                url: https://github.com/ou-bing
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -253,15 +254,6 @@ widgets:
         collapsed: true
         # Maximum level of headings to show (1-6)
         depth: 3
-    # Recommendation links widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: links
-        # Names and URLs of the sites
-        links:
-            Hexo: https://hexo.io
-            Bulma: https://bulma.io
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -288,35 +280,6 @@ widgets:
         amount: 
         # Whether to show tags count, i.e. number of posts in the tag.
         show_count: true
-    # Google FeedBurner email subscription widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: subscribe_email
-        # Hint text under the email input
-        description: 
-        # Feedburner ID
-        feedburner_id: ''
-    # Google AdSense unit configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: adsense
-        # AdSense client ID
-        client_id: ''
-        # AdSense AD unit ID
-        slot_id: ''
-    # Follow.it email subscription widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: followit
-        # Hint text under the email input
-        description: 
-        # Subscription form action URL
-        action_url: ''
-        # Feed claiming verification code
-        verification_code: ''
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
@@ -396,8 +359,8 @@ plugins:
 # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
 providers:
     # Name or URL template of the JavaScript and/or stylesheet CDN provider
-    cdn: jsdelivr
+    cdn: loli
     # Name or URL template of the webfont CDN provider
-    fontcdn: google
+    fontcdn: loli
     # Name or URL of the fontawesome icon font CDN provider
-    iconcdn: fontawesome
+    iconcdn: loli
