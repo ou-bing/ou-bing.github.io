@@ -155,9 +155,14 @@ search:
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-    type: disqus
-    # Disqus shortname
-    shortname: ''
+    type: gitalk
+    client_id: 8f0183c7070f6cad20fa
+    client_secret: 536111e1c79cf0dded354a04d04d99751ff7a3ad
+    repo: ou-bing.github.io
+    owner: ou-bing
+    admin:
+        - ou-bing
+    language: zh-CN 
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
